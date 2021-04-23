@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+
+}
+
+#one{
+    font-family: 'Impact';
+    color:red;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+
+}
+
+#two{
+    font-family:'Lucida Sans';
+    color:yellow;
+    text-align: center;
+
+}
+
+#three{
+    border-style:dotted;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color:white;
+    font-size:100px;
+
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#leftNav img{
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
